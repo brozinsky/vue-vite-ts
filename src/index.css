@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container {
+    @apply mx-auto;
+    width: 90vw;
+    max-width: 1100px;
+}

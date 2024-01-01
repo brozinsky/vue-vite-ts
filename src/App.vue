@@ -1,28 +1,21 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import Hero from './components/Hero.vue'
+import Products from './components/Products.vue'
+import Contact from './components/Contact.vue'
+import Features from './components/Features.vue'
+import Footer from './components/Footer.vue'
+
 </script>
 
 <template>
-  <div class="bg-red-500">
-    Hello world
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  <main>
+    <Hero />
+    <Features />
+    <Products />
+    <Contact />
+    <Footer /> 
+  </main>
   <div>
     
   </div>
 </template>
-
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
